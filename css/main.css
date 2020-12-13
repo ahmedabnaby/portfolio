@@ -2571,10 +2571,10 @@ html.no-csstransitions .home-content__main {
   }
 
   .home-social {
-    display: inline;
-    left: 1rem;
-    top:35%
-  }
+  /* display: none;   */
+  right: 1rem;
+  top: 35%;
+}
 
 }
 
