@@ -542,7 +542,7 @@ form,
 }
 
 #loader {
-  position: absolute;
+  /* position: absolute;
   left: 50%;
   top: 50%;
   width: 6px;
@@ -551,9 +551,18 @@ form,
   display: inline-block;
   -webkit-transform: translate3d(-50%, -50%, 0);
   -ms-transform: translate3d(-50%, -50%, 0);
-  transform: translate3d(-50%, -50%, 0);
-}
+  transform: translate3d(-50%, -50%, 0); */
 
+  width: 100%;
+  height: 100%;
+  top: 40%;
+  left: 0;
+  position: fixed;
+  display: block;
+  opacity: 0.7;
+  z-index: 99;
+  text-align: center;
+}
 #loader > div {
   content: "";
   background: #FFFFFF;
