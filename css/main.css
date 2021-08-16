@@ -3059,6 +3059,11 @@ html.no-csstransitions .home-content__main {
   overflow: hidden;
 }
 
+.item-folio__thumb
+{
+  cursor: pointer;
+}
+
 .item-folio__thumb img {
   vertical-align: bottom;
   -webkit-transition: all 0.5s ease-in-out;

@@ -247,7 +247,7 @@
         ssMenuOnScrolldown();
         ssOffCanvas();
         ssMasonryFolio();
-        ssPhotoswipe();
+        // ssPhotoswipe();
         ssSlickSlider();
         ssSmoothScroll();
         ssAlertBoxes();
