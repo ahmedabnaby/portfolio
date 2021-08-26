@@ -1703,7 +1703,7 @@ body.menu-is-open {
   -webkit-transition: all 0.5s cubic-bezier(0.7, 0.3, 0, 1);
   transition: all 0.5s cubic-bezier(0.7, 0.3, 0, 1);
   -webkit-transform: translateZ(0);
-  -webkit-backface-visibility: hidden;
+  /* -webkit-backface-visibility: hidden; */
   -webkit-transform: translate3d(100%, 0, 0);
   -ms-transform: translate3d(100%, 0, 0);
   transform: translate3d(100%, 0, 0);
@@ -1756,8 +1756,8 @@ body.menu-is-open {
   left: 100px;
   opacity: 0;
   visibility: hidden;
-  -webkit-transform: translateZ(0);
-  -webkit-backface-visibility: hidden;
+  /* -webkit-transform: translateZ(0); */
+  /* -webkit-backface-visibility: hidden; */
 }
 
 .header-nav__content {
