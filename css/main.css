@@ -563,6 +563,11 @@ form,
   z-index: 99;
   text-align: center;
 }
+.dots-pulse h1
+{
+  position: relative;
+  top: -85px;
+}
 #loader > div {
   content: "";
   background: #FFFFFF;
