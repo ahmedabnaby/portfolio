@@ -1695,7 +1695,7 @@ body:not(.tt-boxed) .page-header-inner,
 @media (max-width: 540px) {
 	body.ph-image-on #page-header:not(.project-info-list-on) .page-header-inner {
 		padding-top: 240px;
-		padding-bottom: 40vw;
+		padding-bottom: 0vw;
 	}
 }
 
@@ -1735,6 +1735,10 @@ body:not(.tt-boxed) .page-header-inner,
 	#page-header.ph-full:not(.ph-center):not(.ph-bg-image) .ph-image {
 		width: 70%;
 		left: 15%;
+	}
+	.margin-top-mobile
+	{
+		margin-top: 120% !important;
 	}
 }
 
