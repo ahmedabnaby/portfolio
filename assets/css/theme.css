@@ -1781,7 +1781,7 @@ body:not(.tt-boxed) .page-header-inner,
 	left: -1px;
 	bottom: -1px;
 	right: -1px;
-	background-color: #040404;
+	//background-color: #040404;
 	z-index: 1;
 	opacity: 0;
 }
