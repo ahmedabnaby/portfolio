@@ -1721,7 +1721,7 @@ body:not(.tt-boxed) .page-header-inner,
 @media (max-width: 1600px) {
 	.ph-image,
 	#page-header.ph-full:not(.ph-center):not(.ph-bg-image) .ph-image {
-		width: 320px;
+		width: 35%;
 	}
 }
 @media (max-width: 1024px) {
@@ -2478,7 +2478,8 @@ body.ph-share-open {
 		height: 100%;
 	}
 	#page-header.ph-full:not(.ph-bg-image).ph-image-cropped .ph-image-inner {
-		padding-bottom: 140%;
+		padding-bottom: 155%;
+		left: 25%;
 	}
 }
 
