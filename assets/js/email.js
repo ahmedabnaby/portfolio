@@ -5,10 +5,11 @@ function sendMail()
         email: document.getElementById("email").value,
         message: document.getElementById("subject").value
     }
-    emailjs.send(service_flpofzf, template_mctvtds, templateParams, user_6wV3npovXhIWDPBmLQDUT).then(function (res) 
-    {
-        console.log(res.status);
-    });
+    emailjs.send('service_flpofzf', 'template_mctvtds', templateParams).then(function(response) {
+        console.log('SUCCESS!', response.status, response.text);
+     }, function(error) {
+        console.log('FAILED...', error);
+     });
 }
 
 // service_flpofzf
