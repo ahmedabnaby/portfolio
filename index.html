@@ -29,6 +29,16 @@
 					gtag('config', 'G-DBDT2FBQWS');
 					</script>
 
+					<script type="text/javascript"
+					src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+					</script>
+					<script type="text/javascript">
+					(function(){
+					emailjs.init("user_6wV3npovXhIWDPBmLQDUT");
+					})();
+					</script>
+
+
 		<!-- Google fonts (https://www.google.com/fonts) -->
 		<link rel="preconnect" href="https://fonts.gstatic.com">
 		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet"> <!-- Body font -->
@@ -1135,7 +1145,7 @@
 
 											<div class="tt-form-group">
 												<label>Name</label>
-												<input class="tt-form-control" type="text" name="Name" placeholder="Enter your name" required>
+												<input class="tt-form-control" type="text" id="name" name="Name" placeholder="Enter your name" required>
 											</div>
 
 										</div> <!-- /.tt-col -->
@@ -1144,7 +1154,7 @@
 
 											<div class="tt-form-group">
 												<label>Email address</label>
-												<input class="tt-form-control" type="email" name="Email" placeholder="Enter your email" required>
+												<input class="tt-form-control" type="email" id="email" name="Email" placeholder="Enter your email" required>
 											</div>
 
 										</div> <!-- /.tt-col -->
@@ -1152,7 +1162,7 @@
 
 									<div class="tt-form-group">
 										<label>Subject</label>
-										<input class="tt-form-control" type="text" name="Subject" placeholder="Subject" required>
+										<input class="tt-form-control" type="text" id="subject" name="Subject" placeholder="Subject" required>
 									</div>
 
 									<!-- <div class="tt-form-group">
@@ -1168,7 +1178,7 @@
 
 									<div class="tt-form-group">
 										<label>Message</label>
-										<textarea class="tt-form-control" rows="7" name="Message" placeholder="What's in your mind?" required></textarea>
+										<textarea class="tt-form-control" rows="7" name="Message" id="message" placeholder="What's in your mind?" required></textarea>
 										<small class="tt-form-text"><em>* All fields are required!</em></small>
 									</div>
 
@@ -1279,6 +1289,7 @@
 		<script src="assets/vendor/jquery.mousewheel.min.js"></script> <!-- A jQuery plugin that adds cross browser mouse wheel support (https://github.com/jquery/jquery-mousewheel) -->
 
 		<!-- Theme master JS -->
+		<script src="assets/js/email.js"></script>
 		<script src="assets/js/theme.js"></script>
 
 
