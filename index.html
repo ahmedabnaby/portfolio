@@ -38,7 +38,6 @@
 					})();
 					</script>
 
-
 		<!-- Google fonts (https://www.google.com/fonts) -->
 		<link rel="preconnect" href="https://fonts.gstatic.com">
 		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet"> <!-- Body font -->
@@ -1178,12 +1177,12 @@
 
 									<div class="tt-form-group">
 										<label>Message</label>
-										<textarea class="tt-form-control" rows="7" name="Message" id="message" placeholder="What's in your mind?" required></textarea>
+										<textarea class="tt-form-control" rows="7" id="message" name="Message" placeholder="What's in your mind?" required></textarea>
 										<small class="tt-form-text"><em>* All fields are required!</em></small>
 									</div>
 
 									<div class="tt-btn tt-btn-light-outline">
-										<button type="submit" onclick="sendMail()" data-hover="Send Message">Send Message</button>
+										<button type="submit" onclick="send()" data-hover="Send Message">Send Message</button>
 									</div>
 								</form>
 								<!-- End form -->
@@ -1289,7 +1288,7 @@
 		<script src="assets/vendor/jquery.mousewheel.min.js"></script> <!-- A jQuery plugin that adds cross browser mouse wheel support (https://github.com/jquery/jquery-mousewheel) -->
 
 		<!-- Theme master JS -->
-		<script src="assets/js/email.js"></script>
+		<script src="assets/js/emailjs.js"></script>
 		<script src="assets/js/theme.js"></script>
 
 
